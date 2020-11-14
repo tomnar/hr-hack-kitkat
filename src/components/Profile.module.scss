@@ -1,3 +1,18 @@
 .profile {
-    background: red;
+    background: #eaeaea;
+    text-align: center;
+}
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid lightgray;
+}
+.info_container {
+    margin-top: 20px;
+    padding: 0 30px;
+    li {
+        display: flex;
+        justify-content: space-between;
+    }
 }
