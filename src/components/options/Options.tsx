@@ -31,7 +31,8 @@ export default function Options({ className }: Props) {
                 isOpen={modalIsOpen}
                 onRequestClose={() =>setModalIsOpen(false)}
                 style={modalStyles}
-                contentLabel="Settings Modal">
+                contentLabel="Settings Modal"
+                appElement={document.body}>
                 <div className={styles.container}>
                     <Profile />
                     <Interests />
