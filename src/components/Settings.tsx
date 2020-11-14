@@ -8,23 +8,23 @@ export default function Settings() {
       <div>Reminders</div>
       <div className={styles.reminders}>
         <div className={styles.option}>
-          <label htmlFor="option1">Daily</label>
-          <input type="checkbox" name="option1" />
+          <label htmlFor="settings1">Daily</label>
+          <input type="checkbox" id="settings1" />
         </div>
         <div className={styles.option}>
-          <label htmlFor="option2">Weekly</label>
-          <input type="checkbox" name="option2" />
+          <label htmlFor="settings2">Weekly</label>
+          <input type="checkbox" id="settings2" />
         </div>
       </div>
       <div>Preferred times</div>
       <div className={styles.reminders}>
         <div className={styles.option}>
-          <label htmlFor="option3">8 - 12</label>
-          <input type="checkbox" name="option3" />
+          <label htmlFor="settings3">8 - 12</label>
+          <input type="checkbox" id="settings3" />
         </div>
         <div className={styles.option}>
-          <label htmlFor="option4">14 - 18</label>
-          <input type="checkbox" name="option4" />
+          <label htmlFor="settings4">14 - 18</label>
+          <input type="checkbox" id="settings4" />
         </div>
       </div>
     </div>
