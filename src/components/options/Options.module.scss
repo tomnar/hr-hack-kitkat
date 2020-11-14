@@ -1,0 +1,9 @@
+.container {
+    background-color: white;
+    width: 900px;
+    height: 400px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns:  calc(100%/3 - 32px/3) calc(100%/3 - 32px/3) calc(100%/3 - 32px/3);
+    gap: 16px;
+}
